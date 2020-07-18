@@ -1,0 +1,17 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("https://thumbs.dreamstime.com/b/wedding-invitation-border-elegant-satin-11243881.jpg");
+    background-repeat: no-repeat;
+    margin-top: 259px;
+    margin-left: 300px;
+
+}
+h1{
+    color: darkmagenta;
+}
+h2{
+  color: darkolivegreen;
+}
