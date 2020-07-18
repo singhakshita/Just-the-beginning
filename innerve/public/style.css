@@ -6,8 +6,10 @@ html,body{
     box-sizing: border-box;
 }
 body{
-  background-image: url("https://www.freeiconspng.com/uploads/abstract-triangles-png-transparent-image-1.jpg"); 
-  background-repeat: repeat;
+  /* background-image: url("https://www.freeiconspng.com/uploads/abstract-triangles-png-transparent-image-1.jpg");  */
+  /* background-image: url("https://st3.depositphotos.com/9233820/13878/v/1600/depositphotos_138785406-stock-illustration-technology-background-with-gear-wheel.jpg"); */
+  background-image: url("https://legaldbol.com/wp-content/uploads/2019/06/23-Report-Formal-Invitation-Background-Designs-With-Stunning-Design-by-Formal-Invitation-Background-Designs.jpg");
+  background-repeat: no-repeat;
   height: 900px;
   width: 900px;
 }
@@ -28,34 +30,35 @@ input{
     height: 700px;
     margin-left: 100px;
     font-size: large;
-    color: #231d0b;
+    color: #008156;
 
 }
 .name{
-    height: 7%;
+    height: 10%;
 }
 .age{
-    height: 7%;
+    height: 10%;
 }
 .gender{
-    height: 7%;
+    height: 10%;
     display: flex;
     
 }
 .college{
-    height: 7%;
+    height: 10%;
 }
 .mobile-no{
-    height: 7%;
+    height: 10%;
 }
 .email{
-    height: 7%;
+    height: 10%;
 }
 .password{
-    height: 7%;
+    height: 10%;
 }
 .submit{
     width: 20%;
+    height: 10%;
 }
 
 
