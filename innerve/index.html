@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action= "/register" method="POST">
+    <h1>INNERVE</h1>
+    <h2>REGISTRATION FORM</h2>
+    <div class="register" >
+        
+       <div class="name">
+           NAME      :
+           <input type="text" id="name" name="Name">
+       </div>
+
+       <div class="age">
+           AGE       :
+           <input type="text" id="age"  name="Age">
+       </div>
+
+       <div class="gender">
+           GENDER     :
+           <div class="choosegender"    name="Gender">
+                <select name="gender" id="gender">
+                    <option value="none">None</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+           </div>
+       </div>
+
+       <div class="college">
+           COLLEGE   :
+           <input type="text" id="college" name="College">
+       </div>
+
+       <div class="mobile-no">
+           MOBILE    :
+           <input type="text" id="mobile"  name="Mobile">
+       </div>
+
+       <div class="email"> 
+           EMAIL     :
+           <input type="email" name="email" id="email">
+        </div>
+
+        <div class="password">
+            PASSWORD  :
+            <input type="password" name="password" id="password">
+        </div>
+        <div class="submit">
+        <input type="submit" value="SUBMIT">
+         </div>
+    </div>
+  </form>  
+</body>
+</html>
